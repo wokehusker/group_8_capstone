@@ -1,1 +1,111 @@
 # group_8_capstone
+
+
+## overview:
+1. Business Understanding
+2. Data Understanding and Analysis
+3. Code Overview
+4. Statistical Communication
+5. Conclusion
+
+
+
+#### Business Understanding
+
+
+To companies who decided to create a new movie studio, showing:
+    How much can you expect to gross domestically and globally?
+    What are the most popular genres from 2010 to 2018?
+    What movie genre will offer the most advantageous entry point into the market?
+
+
+
+#### Data Understanding and Analysis
+
+
+There are 6 data given initially, but only utilized 3
+
+bom.movie_gross.csv.gz is csv zipped file. Using names of movie, combine the data with movie rating table from im.db file. This combines the rating tables with domestic gross and studio datas.
+
+im.db.zip is database file. Utilize sqlite3 to open and organize the data which allows to work on necessary information (movie ratings table)
+
+tn.movie_budgets.csv.gz is csv zipped file. Using names of movie, combine the data with movie rating table from im.db file. This combines the rating table with production budget to movie rating table. 
+
+
+After combining all datas with movie rating table using merge, organized the data
+
+From the movie rating table, drop rows with null values in genres, studio, and domestic gross columns since they are categorical data which is hard to replace. 
+Also, the null values are only a small portion of the entire data, so it is trivial number. Since domestic gross and production budget is most important information that used durig visualization, null values has to be dropped, but we kept the zero values for accuracy.
+From the production budget, domestic gross and worldwide gross columns, dollar symbols and other special characters are removed and converted to integer number
+
+From the movie rating table, drop the foreign gross column since it is not used.
+
+
+
+#### Code Overview
+
+###### visualization 1:
+
+The first visualization display the relationship between production budget and gross for both domestic and worldwide
+With the organized data, movie rating, draw box plot that display the minimum, maximum, median, 25 and 75 percent percentile, and outliers. For more percisive reference, also draw the box plot without outliers.
+
+With the visual reference, identify that there is a linear relationship between production budget and gross for both domestic and worldwide. 
+
+For final visualization, draw the scatter plot for each domestic gross and worldwide gross with production budget. Gross is y axis, and budget is x axis. Use units in million dollars for user-friendly purpose.
+Along with the scatter plot, draw the line of best fit to show the relationship between gross and production budget.
+
+From the domestic gross and production budget plot, it is showed that there is a strong statistical relationship between production budget and gross revenue. 
+
+
+https://github.com/wokehusker/group_8_capstone/blob/main/visualization_1.ipynb
+
+
+
+###### visualization 2:
+
+
+
+
+https://github.com/wokehusker/group_8_capstone/blob/main/visualization_2.ipynb
+
+
+###### visualization 3:
+
+The third visualization display the relationship between the studio and the market share.
+With the cleaned data, group them by studio in order to get the sum of domestic gross for each studio.
+Using the total domestic market, by adding all domestic gross of every studio, find the market share of each studio.
+For user-friendly purpose use percent instead of actual values.
+Since top 20 studios have 97.2 percent of entire market share, only display top 20 studios.
+Using bar plot, use studio as x axis and percent for y axis.
+From the result, notes that BV is part of Disney, WB is Warners Brothers, Uni is Universial Studio, Par. is Paramount Pictures.
+
+
+
+https://github.com/wokehusker/group_8_capstone/blob/main/visualization_3.ipynb
+
+
+
+#### Statistical Communication
+
+
+
+#### Conclusion
+
+
+
+#### Resources
+used zip files in 
+https://github.com/wokehusker/group_8_capstone/blob/main/zippedData/bom.movie_gross.csv.gz
+https://github.com/wokehusker/group_8_capstone/blob/main/zippedData/rt.movie_info.tsv.gz
+https://github.com/wokehusker/group_8_capstone/blob/main/zippedData/rt.reviews.tsv.gz
+https://github.com/wokehusker/group_8_capstone/blob/main/zippedData/tmdb.movies.csv.gz
+https://github.com/wokehusker/group_8_capstone/blob/main/zippedData/tn.movie_budgets.csv.gz
+
+modified data files in
+https://github.com/wokehusker/group_8_capstone/blob/main/df_gross.zip
+https://github.com/wokehusker/group_8_capstone/blob/main/df_rating.zip
+
+more information in
+https://github.com/learn-co-curriculum/dsc-ai-academy-semester1-capstone
+
+
