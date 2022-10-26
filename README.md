@@ -102,11 +102,16 @@ https://github.com/wokehusker/group_8_capstone/blob/main/visualization_3.ipynb
 Based on our research conducted, we believe that the genres of "Action, Adventure, Fantasy" and "Action, Crime, Drama" offer the best opportunity to successfully break into the film industry. 
 
 From here some of the next steps would include:
-    <br / >Selecting a genre for the movie
-    <br / >Generating a storyline and script, while conducting market research on the ideas
-    <br / >Setting a prodution budget and research successful directors and actors/actresses
-    <br / >Producing the movie
-    <br / >Conducting research on the best method of release (Theaters, Streaming platforms, TV, etc.)
+
+Selecting a genre for the movie
+
+Generating a storyline and script, while conducting market research on the ideas
+
+Setting a prodution budget and research successful directors and actors/actresses
+
+Producing the movie
+
+Conducting research on the best method of release (Theaters, Streaming platforms, TV, etc.)
 
 
 #### Resources
