@@ -104,13 +104,9 @@ Based on our research conducted, we believe that the genres of "Action, Adventur
 From here some of the next steps would include:
 
 <br />Selecting a genre for the movie
-
-<br /><br />Generating a storyline and script, while conducting market research on the ideas
-
+<br />Generating a storyline and script, while conducting market research on the ideas
 <br />Setting a prodution budget and research successful directors and actors/actresses
-
 <br />Producing the movie
-
 <br />Conducting research on the best method of release (Theaters, Streaming platforms, TV, etc.)
 
 
