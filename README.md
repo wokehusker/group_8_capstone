@@ -63,7 +63,15 @@ https://github.com/wokehusker/group_8_capstone/blob/main/visualization_1.ipynb
 
 ###### visualization 2:
 
+In this document, we created 4 different charts utilizing our custom dataset: df_gross.zip
 
+The first visualization we created shows us the top 10 movie genres most produced from our dataset from 2010 to 2018. For this, we grouped each of the genres together and took the total count of different movies within that genre. We then listed it in ascending order to see which genres were produced the most. 
+
+Our second visualization then took those top genres and looked at how much money each was earning over the span of 8 years. We pulled out those genres from the dataframe, listed them, and listed their total domestic gross. From this chart we could understand which genres were going to see the most profit and cross reference it to the first visualization to see where we should be targeting. 
+
+The third visualization was determined by the genre we thought had the most room for a profitable movie. This genre was “Action, Adventure, Fantasy” Movies. We filtered out movies only in this genre, took a count of how many movies were produced per year, and then graphed it using a bar graph. 
+
+Our final visualization is a duplicate of the third where the only difference was that instead of looking at “Action, Adventure, Fantasy” we looked at “Action, Crime, Drama” Movies.
 
 
 https://github.com/wokehusker/group_8_capstone/blob/main/visualization_2.ipynb
@@ -91,6 +99,14 @@ https://github.com/wokehusker/group_8_capstone/blob/main/visualization_3.ipynb
 
 #### Conclusion
 
+Based on our research conducted, we believe that the genres of "Action, Adventure, Fantasy" and "Action, Crime, Drama" offer the best opportunity to successfully break into the film industry. 
+
+From here some of the next steps would include:
+    Selecting a genre for the movie
+    Generating a storyline and script, while conducting market research on the ideas
+    Setting a prodution budget and research successful directors and actors/actresses
+    Producing the movie
+    Conducting research on the best method of release (Theaters, Streaming platforms, TV, etc.)
 
 
 #### Resources
