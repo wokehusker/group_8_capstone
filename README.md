@@ -13,10 +13,10 @@
 #### Business Understanding
 
 
-To companies who decided to create a new movie studio, showing:
-    How much can you expect to gross domestically and globally?
-    What are the most popular genres from 2010 to 2018?
-    What movie genre will offer the most advantageous entry point into the market?
+Our goal is to help Computing Vision successfully enter the film industry by answering the following questions:
+<br />How much can you expect to gross domestically and globally?
+<br />What are the most popular genres from 2010 to 2018?
+<br />What movie genre will offer the most advantageous entry point into the market?
 
 
 
