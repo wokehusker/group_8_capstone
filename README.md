@@ -99,8 +99,8 @@ We completed two linear regression models to examine the relationships between:
 <br /> Production Budget and Domestic Gross Revenue
 <br /> Production Budget and Global Gross Revenue
 <br />
-<br /> Our null hypothesis: "There is not a strong linear relationship between production budget and film revenue, both domestically and globally"
-<br /> Our alt. hypothesis: " There is a strong linear relationship between production budget and film revenue, both domestically and globally"
+<br /> Our null hypothesis: "There is not a statistically significant linear relationship between production budget and film revenue, both domestically and globally"
+<br /> Our alt. hypothesis: " There is a statistically significant linear relationship between production budget and film revenue, both domestically and globally"
 <br />
 <br /> We found a correlation of r=0.7 for production budget vs. domestic gross revenue and a correlation of r=0.77 for production budget vs. global gross revenue. This suggests that over 70% of variability in gross revenue can be attributed to production budget. Therefore, we reject the null hypothesis and affirm that there is a strong linear relationship between production budget and film revenue, both domestically and globally.
 
