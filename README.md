@@ -14,9 +14,9 @@
 
 
 Our goal is to help Computing Vision successfully enter the film industry by answering the following questions:
-<br />How much can you expect to gross domestically and globally?
-<br />What are the most popular genres from 2010 to 2018?
-<br />What movie genre will offer the most advantageous entry point into the market?
+<br /> 1. How much can you expect to gross domestically and globally?
+<br /> 2. What are the most popular genres from 2010 to 2018?
+<br /> 3. What movie genre will offer the most advantageous entry point into the market?
 
 
 
@@ -118,6 +118,9 @@ From here some of the next steps would include:
 
 
 #### Resources
+presentation (pdf)
+https://github.com/wokehusker/group_8_capstone/blob/main/Group%208%20Capstone%20Project.pdf
+
 used zip files in 
 https://github.com/wokehusker/group_8_capstone/blob/main/zippedData/bom.movie_gross.csv.gz
 https://github.com/wokehusker/group_8_capstone/blob/main/zippedData/rt.movie_info.tsv.gz
