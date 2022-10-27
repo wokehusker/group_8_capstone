@@ -95,6 +95,13 @@ https://github.com/wokehusker/group_8_capstone/blob/main/visualization_3.ipynb
 
 #### Statistical Communication
 
+We completed two linear regression models to examine the relationships between: 
+<br /> Production Budget and Domestic Gross Revenue
+<br /> Production Budget and Global Gross Revenue
+<br />
+<br /> Our null hypothesis: "There is not a strong linear relationship between production budget and film revenue, both domestically and globally"
+<br /> Our alt. hypothesis: " There is a strong linear relationship between production budget and film revenue, both domestically and globally"
+
 
 
 #### Conclusion
